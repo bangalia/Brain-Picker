@@ -14,6 +14,9 @@
 		440CA9F927CEF54300075E30 /* Brain_PickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440CA9F827CEF54300075E30 /* Brain_PickerTests.swift */; };
 		440CAA0327CEF54400075E30 /* Brain_PickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440CAA0227CEF54400075E30 /* Brain_PickerUITests.swift */; };
 		440CAA0527CEF54400075E30 /* Brain_PickerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440CAA0427CEF54400075E30 /* Brain_PickerUITestsLaunchTests.swift */; };
+		440CAA1227CEF67500075E30 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440CAA1127CEF67500075E30 /* GameController.swift */; };
+		440CAA1427CEF7A100075E30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 440CAA1327CEF7A100075E30 /* Main.storyboard */; };
+		440CAA1627CEF7F100075E30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 440CAA1527CEF7F100075E30 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		440CA9FE27CEF54300075E30 /* Brain PickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brain PickerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		440CAA0227CEF54400075E30 /* Brain_PickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brain_PickerUITests.swift; sourceTree = "<group>"; };
 		440CAA0427CEF54400075E30 /* Brain_PickerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brain_PickerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		440CAA1127CEF67500075E30 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		440CAA1327CEF7A100075E30 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		440CAA1527CEF7F100075E30 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,9 @@
 			isa = PBXGroup;
 			children = (
 				440CA9E727CEF54100075E30 /* Brain_PickerApp.swift */,
+				440CAA1127CEF67500075E30 /* GameController.swift */,
+				440CAA1327CEF7A100075E30 /* Main.storyboard */,
+				440CAA1527CEF7F100075E30 /* LaunchScreen.storyboard */,
 				440CA9E927CEF54100075E30 /* ContentView.swift */,
 				440CA9EB27CEF54300075E30 /* Assets.xcassets */,
 				440CA9ED27CEF54300075E30 /* Preview Content */,
@@ -231,6 +240,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				440CAA1427CEF7A100075E30 /* Main.storyboard in Resources */,
+				440CAA1627CEF7F100075E30 /* LaunchScreen.storyboard in Resources */,
 				440CA9EF27CEF54300075E30 /* Preview Assets.xcassets in Resources */,
 				440CA9EC27CEF54300075E30 /* Assets.xcassets in Resources */,
 			);
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				440CA9EA27CEF54100075E30 /* ContentView.swift in Sources */,
+				440CAA1227CEF67500075E30 /* GameController.swift in Sources */,
 				440CA9E827CEF54100075E30 /* Brain_PickerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
